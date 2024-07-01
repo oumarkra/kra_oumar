@@ -1,4 +1,5 @@
 def chebyshev_distance(p1, p2):
+    """Docstring..."""
     return max(abs(x - y) for x, y in zip(p1, p2))
 
 if __name__ == "__main__":
